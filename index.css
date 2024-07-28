@@ -1,0 +1,205 @@
+html {
+    padding : 0;
+}
+
+body {
+    font-family : Arial, Helvetica, sans-serif;
+    margin : -20px 0 0 0;
+}
+
+/* Header elements */
+
+nav {
+    display : flex;
+    align-items : center;
+    justify-content : space-between;
+    margin-top : 1em;
+    background : linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0));
+    padding: 1em;
+}
+
+/* Microsoft Logo */
+
+.microsoft-full-logo {
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    margin-top : -.5rem;
+    margin-left : .5rem;
+}
+
+.logo-text {
+    color : white;
+    font-size : 1.4em;
+    margin-bottom : 0;
+}
+
+.microsoft-logo {
+    margin-top : .8rem;
+    margin-right : .5rem;
+}
+
+.square {
+    width : 15px;
+    height : 15px;
+    margin-right : .05rem;
+    margin-bottom : .025rem;
+}
+
+.top-squares, .bottom-squares {
+    display : flex;
+}
+
+.top-left {
+    background-color: red;
+    margin : none;
+}
+
+.top-right {
+    background-color: #8dc63f;
+    margin : none;
+}
+
+.bottom-left {
+    background-color : #00aeef;
+    margin : none;
+}
+
+.bottom-right {
+    background-color : #ffc20e;
+    margin : none;
+}
+
+
+/* Clickable menu */
+
+.links{
+    margin-top : .8rem;
+    display : flex;
+}
+
+a {
+    color : white;
+    text-decoration : none;
+    margin-right : 1rem;
+}
+
+a:hover, a:active {
+    font-weight : bold;
+}
+
+.copilot {
+    display : flex;
+    align-items : center;
+}
+
+/* container */
+
+.main-central-container {
+    width : 700px;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 15rem;
+}
+
+.central-container {
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    margin-left : auto;
+    margin-right : auto;
+    width : 600px;
+}
+
+/* searchbar */
+
+.searchbar-container {
+    border-radius : 30px;
+    background-color: white;
+    z-index : 1;
+    padding : 1em 0;
+    margin-right : .5em;
+    width : 500px;
+}
+
+.searchbar {
+    outline : none;
+    border : none; 
+    width : 400px;
+    font-size : 18px;
+    color : #4e4e5d;
+    caret-color :rgb(0, 0, 0);
+    background-color : white;
+}
+
+.searchbar:focus,:hover  {
+    border-radius : 10px;
+}
+
+.searchbar::placeholder {
+    font-size : 18px;
+}
+
+
+.fa-search {
+    color : #4e4e5d;
+    margin-left : 1.5em;
+    margin-right : 1.5em;
+}
+
+.fa-search:hover {
+    cursor : pointer;
+}
+
+.circle {
+    height : 55px;
+    width : 55px;
+    border-radius : 50%;
+    background-color: white;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+}
+
+#circle-icon {
+    margin : auto;
+}
+
+.text {
+    display : none;
+    width : 100%;
+    padding : .75rem 0;
+    margin-top : 0;
+    text-align : center;
+    background-color : #767676;
+    color : white;
+    border-radius : 10px;
+}
+
+.triangle {
+    display : none;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 17px solid  #767676;
+    margin-top : -1rem;
+    z-index : 5;
+} 
+
+.search-icon-message {
+    width : 200px;
+    height : 1rem;
+    display: flex;
+    flex-direction : column;
+    align-items : center;
+
+}
+
+.fa-handshake-angle {
+    margin-right : .25em;
+}
+
+#copilot-icon {
+    color : white;
+}
